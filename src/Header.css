@@ -1,4 +1,4 @@
-/* --- Header --- */
+
 .header {
   background-color: #1e1e1e;
   padding: 20px 0;
@@ -8,7 +8,7 @@
   z-index: 10;
 }
 
-/* We need .container here just for the flex layout */
+
 .header .container {
   display: flex;
   justify-content: space-between;
@@ -22,7 +22,7 @@
 }
 
 .main-nav a {
-  color: #bb86fc; /* Purple color for links */
+  color: #bb86fc; 
   text-decoration: none;
   margin-left: 20px;
   font-weight: 500;

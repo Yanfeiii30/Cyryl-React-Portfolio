@@ -1,15 +1,15 @@
-/* Styles for the project section */
+
 
 .projects-grid {
-  /* Use CSS Grid to make a nice column layout */
+  
   display: grid;
-  grid-template-columns: 1fr; /* On mobile, 1 column */
-  gap: 20px; /* Space between cards */
+  grid-template-columns: 1fr; 
+  gap: 20px; 
 }
 
-/* A single project card */
+
 .project-card {
-  background-color: #2a2a2e; /* Slightly lighter than the section card */
+  background-color: #2a2a2e; 
   border: 1px solid #333;
   border-radius: 6px;
   padding: 20px;
@@ -33,12 +33,10 @@
 }
 
 
-/* --- Responsive Design --- */
 
-/* When the screen is at least 768px wide (tablets and up) */
 @media (min-width: 768px) {
   .projects-grid {
-    /* Show 2 columns on tablets */
+   
     grid-template-columns: 1fr 1fr;
   }
 }

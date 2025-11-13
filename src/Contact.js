@@ -11,17 +11,14 @@ function Contact() {
       </p>
       
       <div className="contact-links">
-        {/* This link is fine */}
+        {}
         <a href="mailto:cyryl.palisoc.com" className="button">
           Email Me
         </a>
         
-        {/* THE FIX: 
-          We replaced href="#" with your real GitHub URL.
-          (I saw your username "Yanfeiii30" in the Vercel log!)
-          This makes the link valid and removes the warning.
-          We also add target="_blank" to open in a new tab.
-        */}
+        {
+
+        }
         <a 
           href="https://github.com/Yanfeiii30" 
           className="button" 
@@ -31,10 +28,7 @@ function Contact() {
           GitHub
         </a>
         
-        {/* THE FIX: 
-          We replaced href="#" with a placeholder for your LinkedIn.
-          Just change "your-profile" to your real LinkedIn username.
-        */}
+        {}
         <a 
           href="https://www.linkedin.com/in/cyryl/" 
           className="button" 

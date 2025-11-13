@@ -1,5 +1,5 @@
 import React from 'react';
-import './Projects.css'; // Import styles for this component
+import './Projects.css'; 
 
 function Projects() {
   return (
@@ -38,7 +38,7 @@ function Projects() {
           <p>
             <strong>Technologies used:</strong> HTML, CSS, and vanilla JavaScript.
           </p>
-          {/* This link just goes to your main GitHub for now. You can change it later! */}
+          {}
           <a 
             href="https://github.com/Yanfeiii30" 
             className="button"
@@ -58,7 +58,7 @@ function Projects() {
           <p>
             <strong>Technologies used:</strong> React (useState hook) and CSS.
           </p>
-          {/* This link also goes to your main GitHub for now. */}
+          {}
           <a 
             href="https://github.com/Yanfeiii30" 
             className="button"

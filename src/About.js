@@ -1,12 +1,12 @@
 import React from 'react';
-import './About.css'; // Import styles for this component
-import profilePhoto from './2by2.jpg'; // <-- THIS IS THE FIX (Step 1)
+import './About.css'; 
+import profilePhoto from './2by2.jpg'; 
 
 function About() {
   return (
     <section id="about" className="about-section card">
       <img
-        src={profilePhoto} // <-- THIS IS THE FIX (Step 2)
+        src={profilePhoto} 
         alt="Cyryl P. Palisoc"
         className="profile-photo"
       />
