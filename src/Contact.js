@@ -12,7 +12,7 @@ function Contact() {
       
       <div className="contact-links">
         {/* This link is fine */}
-        <a href="mailto:cyryl.palisoc@example.com" className="button">
+        <a href="mailto:cyryl.palisoc.com" className="button">
           Email Me
         </a>
         
@@ -36,7 +36,7 @@ function Contact() {
           Just change "your-profile" to your real LinkedIn username.
         */}
         <a 
-          href="https://www.linkedin.com/in/your-profile" 
+          href="https://www.linkedin.com/in/cyryl/" 
           className="button" 
           target="_blank" 
           rel="noopener noreferrer"
