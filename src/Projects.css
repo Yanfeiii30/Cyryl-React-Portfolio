@@ -1,0 +1,44 @@
+/* Styles for the project section */
+
+.projects-grid {
+  /* Use CSS Grid to make a nice column layout */
+  display: grid;
+  grid-template-columns: 1fr; /* On mobile, 1 column */
+  gap: 20px; /* Space between cards */
+}
+
+/* A single project card */
+.project-card {
+  background-color: #2a2a2e; /* Slightly lighter than the section card */
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.project-card h3 {
+  color: #e0e0e0;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.project-links a {
+  margin-right: 10px;
+  font-size: 0.9rem;
+}
+
+
+/* --- Responsive Design --- */
+
+/* When the screen is at least 768px wide (tablets and up) */
+@media (min-width: 768px) {
+  .projects-grid {
+    /* Show 2 columns on tablets */
+    grid-template-columns: 1fr 1fr;
+  }
+}

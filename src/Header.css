@@ -1,0 +1,32 @@
+/* --- Header --- */
+.header {
+  background-color: #1e1e1e;
+  padding: 20px 0;
+  border-bottom: 1px solid #2a2a2e;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* We need .container here just for the flex layout */
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-nav a {
+  color: #bb86fc; /* Purple color for links */
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.main-nav a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,48 @@
+/* --- Global Styles --- */
+/* We removed the 'body' styles from this file. */
+/* They now live in index.css */
+
+/* This is our main container for content */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* A reusable 'card' style for sections */
+.card {
+  background-color: #1e1e1e;
+  border: 1px solid #2a2a2e;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Reusable Section Title --- */
+/* We put this here so all components can share it */
+.section-title {
+  font-size: 2rem;
+  color: #bb86fc; /* Purple title */
+  margin-top: 0;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #3700b3;
+  padding-bottom: 10px;
+}
+
+/* --- Reusable Button --- */
+/* We put this here so all components can share it */
+.button {
+  display: inline-block;
+  background-color: #bb86fc;
+  color: #121212;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #a06bf9;
+}

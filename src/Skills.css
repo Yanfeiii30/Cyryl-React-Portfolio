@@ -1,0 +1,13 @@
+/* --- Skills Section --- */
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.skills-list span {
+  background-color: #3700b3;
+  color: #ffffff;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: 500;
+}
